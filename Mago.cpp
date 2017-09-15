@@ -49,7 +49,7 @@ void Mago::magico(Luchador* luchador){
 }
 
 void Mago::defender(){
-  hp+=40;
+  hp+=hp*0.45;
   defensa=true;
 }
 

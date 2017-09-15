@@ -56,6 +56,6 @@ void Alquimista::defender(){
 void Alquimista::especial(){
   if (limite==1) {
     invulnerabilidad=true;
-    limite--
+    limite--;
   }
 }

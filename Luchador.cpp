@@ -104,6 +104,11 @@ void Luchador::magico(Luchador* luchador){
 void Luchador::defender(){
 
 }
+
 void Luchador::especial(){
+
+}
+
+void Luchador::pasivo(Luchador* luchador){
 
 }

@@ -49,7 +49,7 @@ void Dragonborn::magico(Luchador* luchador){
 }
 
 void Dragonborn::defender(){
-  hp+=40;
+  hp+=hp*0.45;
   defensa=true;
 }
 

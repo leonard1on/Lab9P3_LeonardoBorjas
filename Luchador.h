@@ -36,6 +36,7 @@ class Luchador {
     float getDefFis();
     int getExpEntregada();
     bool getDefensa();
+    bool getInvulnerabilidad();
 
     void setVictorias(int);
     void setClases(vector<Luchador*>);
@@ -43,10 +44,12 @@ class Luchador {
     void setHp(int);
     void setDefensa(bool);
     void setGolpe(int);
+    void setInvulnerabilidad(bool);
 
 
     virtual void fisico(Luchador*);
     virtual void magico(Luchador*);
     virtual void defender();
     virtual void especial();
+    virtual void pasivo(Luchador*);
 };

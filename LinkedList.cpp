@@ -1,4 +1,4 @@
-#pragma once
+#include "LinkedList.h"
 #include <iostream>
 #include "Luchador.h"
 #include "Guerrero.h"
@@ -9,14 +9,7 @@
 
 using namespace std;
 
-struct node {
-  Luchador* data;
-  node* next;
-};
-
-class LinkedList{
-  private:
-    node* head, tail;
-  public:
-    LinkedList();
-};
+LinkedList::LinkedList(){
+  head=NULL;
+  tail=NULL;
+}

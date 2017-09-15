@@ -12,4 +12,5 @@ class Aprendiz : public Luchador{
     void fisico(Luchador*);
     void magico(Luchador*);
     void defender();
+    void pasivo(Luchador*);
 };

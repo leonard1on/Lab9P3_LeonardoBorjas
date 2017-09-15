@@ -49,6 +49,10 @@ void Aprendiz::magico(Luchador* luchador){
 }
 
 void Aprendiz::defender(){
-  hp+=40;
+  hp+=hp*0.45;
   defensa=true;
+}
+
+void Aprendiz::pasivo(Luchador* luchador){
+  experiencia+=luchador->getExpEntregada();
 }
