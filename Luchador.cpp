@@ -112,6 +112,9 @@ void Luchador::toString(){
     <<"Defensa Fisica: " <<defFis <<"   Experiencia Entregada: " <<expEntregada <<endl;
 }
 
+void Luchador::setlimite(){
+  limite=1;
+}
 void Luchador::fisico(Luchador* luchador){
 
 }
@@ -133,7 +136,13 @@ void Luchador::pasivo(Luchador* luchador){
 }
 
 void Luchador(Luchador* luchador){
-  if () {
-    /* code */
-  }
+
+}
+
+bool Luchador::confirmar(Luchador* luchador, int i){
+  return true;
+}
+
+void Luchador::sanar(){
+  
 }

@@ -50,9 +50,33 @@ void Aprendiz::magico(Luchador* luchador){
 
 void Aprendiz::defender(){
   hp+=hp*0.45;
+  if (hp>60) {
+    hp=60;
+  }
   defensa=true;
 }
 
 void Aprendiz::pasivo(Luchador* luchador){
   experiencia+=luchador->getExpEntregada();
+}
+
+bool Aprendiz::confirmar(Luchador* luchador, int opcion){
+  bool confirmar=false;
+  if (opcion==1) {
+    confirmar=true;
+  }
+
+  if (opcion==2) {
+    confirmar=false;
+  }
+
+  if (opcion==3 && limite==1) {
+    confirmar=false;
+  }
+
+  return confirmar;
+}
+
+void Aprendiz::sanar(){
+  hp=60;
 }

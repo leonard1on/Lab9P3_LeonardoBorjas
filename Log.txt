@@ -1,0 +1,260 @@
+Ha comenzado una batalla entre Bob contra Gene
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 105 de vida
+
+Ha comenzado una batalla entre Bob contra Gene
+Bob ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 152 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 198 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 183 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 168 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 153 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 200 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 85 de vida
+Gene tiene 185 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 70 de vida
+Gene tiene 170 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 70 de vida
+Gene tiene 224 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 70 de vida
+Gene tiene 209 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 70 de vida
+Gene tiene 194 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 70 de vida
+Gene tiene 179 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 55 de vida
+Gene tiene 164 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 40 de vida
+Gene tiene 149 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 25 de vida
+Gene tiene 134 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 119 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 104 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 89 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 74 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 85 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 101 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 124 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 25 de vida
+Gene tiene 158 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 10 de vida
+Gene tiene 143 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene -5 de vida
+Gene tiene 128 de vida
+
+Ha comenzado una batalla entre Bob contra Gene
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 100 de vida
+Gene tiene 120 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 120 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 100 de vida
+Gene tiene 120 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 100 de vida
+Gene tiene 105 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 100 de vida
+Gene tiene 90 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 100 de vida
+Gene tiene 75 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 85 de vida
+Gene tiene 60 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 85 de vida
+Gene tiene 45 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 85 de vida
+Gene tiene 30 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 85 de vida
+Gene tiene 15 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 85 de vida
+Gene tiene 0 de vida
+
+Ha comenzado una batalla entre Bob contra Gene
+Bob ha decidido hacer un ataque especial
+Gene ha decidido hacer un ataque fisico
+Bob tiene 85 de vida
+Gene tiene 120 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 70 de vida
+Gene tiene 105 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 70 de vida
+Gene tiene 90 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 70 de vida
+Gene tiene 75 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 70 de vida
+Gene tiene 60 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 70 de vida
+Gene tiene 45 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 55 de vida
+Gene tiene 30 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 40 de vida
+Gene tiene 15 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 25 de vida
+Gene tiene 0 de vida
+
+Ha comenzado una batalla entre Bob contra Gene
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque especial
+Bob tiene 200 de vida
+Gene tiene 120 de vida
+
+Bob ha decidido hacer un ataque fisico
+Gene ha decidido hacer un ataque especial
+Bob tiene 200 de vida
+Gene tiene 97 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 200 de vida
+Gene tiene 72 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 200 de vida
+Gene tiene 68 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque fisico
+Bob tiene 185 de vida
+Gene tiene 43 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 185 de vida
+Gene tiene 18 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 185 de vida
+Gene tiene -7 de vida
+

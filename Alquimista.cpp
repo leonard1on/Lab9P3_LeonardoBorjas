@@ -50,6 +50,9 @@ void Alquimista::magico(Luchador* luchador){
 
 void Alquimista::defender(){
   hp+=40;
+  if (hp>130) {
+    hp=130;
+  }
   defensa=true;
 }
 
@@ -58,4 +61,25 @@ void Alquimista::especial(){
     invulnerabilidad=true;
     limite--;
   }
+}
+
+bool Alquimista::confirmar(Luchador* luchador, int opcion){
+  bool confirmar=false;
+  if (opcion==1) {
+    confirmar=true;
+  }
+
+  if (opcion==2) {
+    confirmar=true;
+  }
+
+  if (opcion==3 && limite==1) {
+    confirmar=true;
+  }
+
+  return confirmar;
+}
+
+void Alquimista::sanar(){
+  hp=130;
 }

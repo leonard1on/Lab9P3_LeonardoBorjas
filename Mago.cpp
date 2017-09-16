@@ -50,6 +50,9 @@ void Mago::magico(Luchador* luchador){
 
 void Mago::defender(){
   hp+=hp*0.45;
+  if (hp>100) {
+    hp=100;
+  }
   defensa=true;
 }
 
@@ -58,4 +61,25 @@ void Mago::especial(){
     hp+=golpe;
     limite--;
   }
+}
+
+bool Mago::confirmar(Luchador* luchador, int opcion){
+  bool confirmar=false;
+  if (opcion==1) {
+    confirmar=false;
+  }
+
+  if (opcion==2) {
+    confirmar=true;
+  }
+
+  if (opcion==3 && limite==1) {
+    confirmar=true;
+  }
+
+  return confirmar;
+}
+
+void Mago::sanar(){
+  hp=100;
 }

@@ -48,6 +48,7 @@ class Luchador {
     void setGolpe(int);
     void setInvulnerabilidad(bool);
     void toString();
+    void setlimite();
 
 
     virtual void fisico(Luchador*);
@@ -55,5 +56,6 @@ class Luchador {
     virtual void defender();
     virtual void especial();
     virtual void pasivo(Luchador*);
-    virtual int confirmar(Luchador*);
+    virtual bool confirmar(Luchador*, int);
+    virtual void sanar();
 };

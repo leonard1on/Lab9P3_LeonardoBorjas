@@ -13,4 +13,6 @@ class Aprendiz : public Luchador{
     void magico(Luchador*);
     void defender();
     void pasivo(Luchador*);
+    bool confirmar(Luchador*, int);
+    void sanar();
 };

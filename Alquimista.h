@@ -13,4 +13,6 @@ class Alquimista : public Luchador{
     void magico(Luchador*);
     void defender();
     void especial();
+    bool confirmar(Luchador*, int);
+    void sanar();
 };

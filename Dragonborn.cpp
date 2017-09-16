@@ -50,6 +50,9 @@ void Dragonborn::magico(Luchador* luchador){
 
 void Dragonborn::defender(){
   hp+=hp*0.45;
+  if (hp>200) {
+    hp=200;
+  }
   defensa=true;
 }
 
@@ -58,4 +61,25 @@ void Dragonborn::especial(){
     powerup=2;
     limite--;
   }
+}
+
+bool Dragonborn::confirmar(Luchador* luchador, int opcion){
+  bool confirmar=false;
+  if (opcion==1) {
+    confirmar=true;
+  }
+
+  if (opcion==2) {
+    confirmar=true;
+  }
+
+  if (opcion==3 && limite==1) {
+    confirmar=true;
+  }
+
+  return confirmar;
+}
+
+void Dragonborn::sanar(){
+  hp=200;
 }
