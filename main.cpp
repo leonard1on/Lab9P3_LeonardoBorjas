@@ -8,6 +8,7 @@
 #include <fstream>
 #include <stdlib.h>
 #include <time.h>
+#include <typeinfo>
 
 #include <string>
 #include <iostream>
@@ -15,6 +16,7 @@ using namespace std;
 int menu();
 Luchador* crearLuchador();
 Luchador* convertir(int, Luchador*);
+
 int main(int argc, char const *argv[]) {
   LinkedList luchadores;
   Luchador* lucha=new Mago("Bob");
@@ -93,8 +95,8 @@ int main(int argc, char const *argv[]) {
         }
         cout<<buffer;
         //Oponente
-        srand (time(NULL));
-        int random=rand() %4 + 1;
+          srand (time(NULL));
+          int random=rand() %4 + 1;
 
         if (random==1) {
           buffer=""+cpu->getNombre()+" ha decidido hacer un ataque fisico\n";
@@ -140,15 +142,17 @@ int main(int argc, char const *argv[]) {
       you->setlimite();
       cpu->setlimite();
 
-      you->pasivo(cpu);
-      cpu->pasivo(you);
+      cpu->sanar();
+      you->sanar();
 
       if (cpu->getHp()<=0) {
         you->setExperiencia(cpu->getExpEntregada() + you->getExperiencia());
-        you->sanar();
+        you->pasivo(cpu);
+        you->setVictorias(you->getVictorias()+1);
       }else{
         cpu->setExperiencia(you->getExpEntregada() + cpu->getExperiencia());
-        cpu->sanar();
+        cpu->pasivo(you);
+        cpu->setVictorias(cpu->getVictorias()+1);
       }
 
     }
@@ -171,6 +175,10 @@ int main(int argc, char const *argv[]) {
       luchadores.remove(rango);
       luchadores.insert(rango, nuevo);
       cout<<endl;
+    }
+
+    if (opcion==5) {
+      /* code */
     }
   }while(opcion!=4);
   return 0;
@@ -228,7 +236,9 @@ Luchador* convertir(int opcion, Luchador* peleador){
   }
   if (exito) {
     luchador->setExperiencia(peleador->getExperiencia());
-    luchador->getClases().push_back(peleador);
+    vector<Luchador*> v=luchador->getClases();
+    v.push_back(peleador);
+    luchador->setClases(v);
     return luchador;
   }else{
     cout<<endl;
@@ -236,6 +246,7 @@ Luchador* convertir(int opcion, Luchador* peleador){
   }
 
 }
+
 
 Luchador* crearLuchador(){
   string resp="";

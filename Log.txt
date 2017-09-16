@@ -258,3 +258,23 @@ Gene ha decidido hacer un ataque magico
 Bob tiene 185 de vida
 Gene tiene -7 de vida
 
+Ha comenzado una batalla entre Bob contra Gene
+Bob ha decidido hacer un ataque especial
+Gene ha decidido hacer un ataque especial
+Bob tiene 200 de vida
+Gene tiene 120 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 200 de vida
+Gene tiene 70 de vida
+
+Bob ha decidido hacer un ataque magico
+Gene ha decidido hacer un ataque magico
+Bob tiene 200 de vida
+Gene tiene 20 de vida
+
+Bob ha decidido hacer un ataque magico
+Bob tiene 200 de vida
+Gene tiene -7 de vida
+
