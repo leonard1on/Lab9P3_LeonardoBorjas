@@ -26,6 +26,7 @@ class Luchador {
 
   public:
     Luchador (string, int, int, int, float, float, int, int);
+    string getNombre();
     int getVictorias();
     vector<Luchador*> getClases();
     int getExperiencia();
@@ -38,6 +39,7 @@ class Luchador {
     bool getDefensa();
     bool getInvulnerabilidad();
 
+    void setNombre(string);
     void setVictorias(int);
     void setClases(vector<Luchador*>);
     void setExperiencia(int);
@@ -45,6 +47,7 @@ class Luchador {
     void setDefensa(bool);
     void setGolpe(int);
     void setInvulnerabilidad(bool);
+    void toString();
 
 
     virtual void fisico(Luchador*);
@@ -52,4 +55,5 @@ class Luchador {
     virtual void defender();
     virtual void especial();
     virtual void pasivo(Luchador*);
+    virtual int confirmar(Luchador*);
 };

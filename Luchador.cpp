@@ -1,6 +1,7 @@
 #include "Luchador.h"
 #include <string>
 #include <vector>
+#include <iostream>
 using namespace std;
 
 Luchador::Luchador(string pNombre, int pHp, int pAttMag, int pAttFis, float pDefMag, float pDefFis, int pExpNecesaria, int pExpEntregada){
@@ -19,6 +20,10 @@ Luchador::Luchador(string pNombre, int pHp, int pAttMag, int pAttFis, float pDef
   golpe=0;
   invulnerabilidad=false;
   powerup=0;
+}
+
+string Luchador::getNombre(){
+  return nombre;
 }
 
 int Luchador::getVictorias(){
@@ -65,6 +70,10 @@ bool Luchador::getInvulnerabilidad(){
   return invulnerabilidad;
 }
 
+void Luchador::setNombre(string pNombre){
+  nombre=pNombre;
+}
+
 void Luchador::setVictorias(int pVictorias){
   victorias=pVictorias;
 }
@@ -93,6 +102,16 @@ void Luchador::setInvulnerabilidad(bool pInvul){
   invulnerabilidad=pInvul;
 }
 
+void Luchador::toString(){
+  cout<<"Nombre: " <<nombre <<endl
+    <<"Batallas ganadas: " <<victorias <<endl
+    <<"# de Clases adquiridas: " <<clases.size() <<endl
+    <<"Experiencia: " <<experiencia <<endl
+    <<"Hp: " <<hp <<"   Ataque Magico: " <<attMag <<endl
+    <<"Attaque Fisico: " <<attFis <<"   Defensa Magica: " <<defMag <<endl
+    <<"Defensa Fisica: " <<defFis <<"   Experiencia Entregada: " <<expEntregada <<endl;
+}
+
 void Luchador::fisico(Luchador* luchador){
 
 }
@@ -111,4 +130,10 @@ void Luchador::especial(){
 
 void Luchador::pasivo(Luchador* luchador){
 
+}
+
+void Luchador(Luchador* luchador){
+  if () {
+    /* code */
+  }
 }

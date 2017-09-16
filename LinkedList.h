@@ -9,14 +9,22 @@
 
 using namespace std;
 
-struct node {
-  Luchador* data;
-  node* next;
+struct Node {
+  Luchador* luchador;
+  Node* next;
 };
 
 class LinkedList{
   private:
-    node* head, tail;
+    Node* head;
+    Node* tail;
+    int size;
   public:
     LinkedList();
+    void addLuchador(Luchador*);
+    void display();
+    void insert(int, Luchador*);
+    void remove(int);
+    int getSize();
+    Luchador* get(int);
 };

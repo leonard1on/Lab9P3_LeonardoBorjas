@@ -1,8 +1,11 @@
-main: main.o Luchador.o Guerrero.o Aprendiz.o Mago.o Alquimista.o Dragonborn.o
-	g++ main.o Luchador.o Guerrero.o Aprendiz.o Mago.o Alquimista.o Dragonborn.o -o main
+main: main.o Luchador.o Guerrero.o Aprendiz.o Mago.o Alquimista.o Dragonborn.o LinkedList.o
+	g++ main.o Luchador.o Guerrero.o Aprendiz.o Mago.o Alquimista.o Dragonborn.o LinkedList.o -o main
 
 main.o: main.cpp Luchador.h Aprendiz.h Guerrero.h Mago.h Alquimista.h Dragonborn.h
 	g++ -c main.cpp
+
+LinkedList.o: LinkedList.cpp LinkedList.h Luchador.h Aprendiz.h Guerrero.h Mago.h Alquimista.h Dragonborn.h
+	g++ -c LinkedList.cpp
 
 Luchador.o: Luchador.cpp Luchador.h
 	g++ -c Luchador.cpp
